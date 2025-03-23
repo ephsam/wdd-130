@@ -1,0 +1,49 @@
+body {
+    font-family: 'Merriweather', serif;
+    color: #0077B6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    color: #00B4D8;
+}
+
+header, footer {
+    background: #0077B6;
+    color: #CAF0F8;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #CAF0F8;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background: #90E0EF;
+    padding: 2rem;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.connect a {
+    color: #0077B6;
+    margin: 0 5px;
+}
