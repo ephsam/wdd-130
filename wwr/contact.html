@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact page for White Water Rafting Adventures - Get in touch for bookings and inquiries">
+    <meta name="author" content="Samuel Rapata">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contact Us - White Water Rafting Adventures</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Adventures Logo">
+        <h1>White Water Rafting Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">W1</a></li>
+                <li><a href="#">W2</a></li>
+                <li><a href="#">W3</a></li>
+                <li><a href="#">W4</a></li>
+                <li><a href="#">W5</a></li>
+                <li><a href="#">W6</a></li>
+                <li><a href="#">W7</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-hero">
+            <img src="images/rafting2.jpg" alt="Contact Us" class="hero-image">
+            <h1>Contact White Water Rafting Adventures</h1>
+        </div>
+
+        <section class="contact-info">
+            <h2>Our Contact Information</h2>
+            <address>
+                123 River Road<br>
+                Raftville, ID 83440<br><br>
+                Phone: <a href="tel:1234567890">(123) 456-7890</a><br>
+                Email: <a href="mailto:info@whitewaterrafting.com">info@whitewaterrafting.com</a>
+            </address>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.9973704240456!2d-111.78544368452605!3d43.8144139500104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                    width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>Our Team</h2>
+            <figure>
+                <img src="images/employee1.webp" alt="Happy employee John Doe">
+                <figcaption>John Doe - Reservation Specialist</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Happy employee Jane Smith">
+                <figcaption>Jane Smith - Customer Service</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpeg" alt="Happy employee Mike Johnson">
+                <figcaption>Mike Johnson - Tour Guide</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <div class="form-item">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-item">
+                        <p>Purpose of Message:</p>
+                        <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
+                        <label for="general">General Inquiry</label><br>
+
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label><br>
+
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-item">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting Adventures | Samuel Rapata</p>
+        <div class="socials">
+            <a href="#"><img src="images/facebook-icon.jpg" alt="Follow us on Facebook"></a>
+            <a href="#"><img src="images/instagram-icon.jpg" alt="Follow us on Instagram"></a>
+            <a href="#"><img src="images/twitter-icon.png" alt="Follow us on Twitter"></a>
+        </div>
+        <p><a href="contact-wireframe.html">View Contact Page Wireframe</a></p>
+    </footer>
+</body>
+
+</html>

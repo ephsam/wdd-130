@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page Wireframe - White Water Rafting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .wire-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .wire-section {
+            border: 2px dashed #2c3e50;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .wire-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .wire-employees {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            text-align: center;
+        }
+        .wire-placeholder {
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            margin: 5px 0;
+            padding: 8px;
+        }
+        .wire-image {
+            background: #ddd;
+            margin: 0 auto;
+        }
+        .wire-round {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="wire-container">
+        <!-- 1. Header -->
+        <div class="wire-section" style="background: #333; color: white; display: flex; align-items: center; padding: 20px;">
+            <div class="wire-image" style="width: 60px; height: 60px; background: #666; margin-right: 15px;"></div>
+            <h1 style="margin: 0 15px 0 0;">White Water Rafting Adventures</h1>
+            <nav style="margin-left: auto;">
+                <div style="display: flex; gap: 15px;">
+                    <a href="#" style="color: white; text-decoration: none;">Home</a>
+                    <a href="#" style="color: white; text-decoration: none;">W1</a>
+                    <a href="#" style="color: white; text-decoration: none;">W2</a>
+                    <!-- Other nav items -->
+                </div>
+            </nav>
+        </div>
+
+        <!-- 2. Hero Section -->
+        <div class="wire-section" style="position: relative; height: 300px; overflow: hidden;">
+            <div class="wire-image" style="height: 100%;"></div>
+            <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                Contact White Water Rafting Adventures
+            </h1>
+        </div>
+
+        <!-- 3. Contact Info + Map -->
+        <div class="wire-grid">
+            <div class="wire-section">
+                <h2>Our Contact Information</h2>
+                <div class="wire-placeholder">123 River Road, Raftville, ID 83440</div>
+                <div class="wire-placeholder">Phone: (123) 456-7890</div>
+                <div class="wire-placeholder">Email: info@whitewaterrafting.com</div>
+            </div>
+            <div class="wire-section">
+                <h2>Google Map</h2>
+                <div class="wire-image" style="height: 200px;"></div>
+            </div>
+        </div>
+
+        <!-- 4. Employees -->
+        <div class="wire-section">
+            <h2 style="text-align: center;">Our Team</h2>
+            <div class="wire-employees">
+                <div>
+                    <div class="wire-image wire-round" style="width: 150px; height: 150px; margin: 0 auto 10px;"></div>
+                    <div class="wire-placeholder">John Doe - Reservation Specialist</div>
+                </div>
+                <div>
+                    <div class="wire-image wire-round" style="width: 150px; height: 150px; margin: 0 auto 10px;"></div>
+                    <div class="wire-placeholder">Jane Smith - Customer Service</div>
+                </div>
+                <div>
+                    <div class="wire-image wire-round" style="width: 150px; height: 150px; margin: 0 auto 10px;"></div>
+                    <div class="wire-placeholder">Mike Johnson - Tour Guide</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. Contact Form -->
+        <div class="wire-section">
+            <h2>Send Us a Message</h2>
+            <div style="margin-top: 15px;">
+                <div style="margin-bottom: 15px;">
+                    <div class="wire-placeholder">Your Name:</div>
+                    <div class="wire-placeholder" style="height: 30px;"></div>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <div class="wire-placeholder">Email:</div>
+                    <div class="wire-placeholder" style="height: 30px;"></div>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <div class="wire-placeholder">Purpose of Message:</div>
+                    <div class="wire-placeholder">○ General Inquiry ○ Reservation Question ○ Website Suggestion</div>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <div class="wire-placeholder">Your Message:</div>
+                    <div class="wire-placeholder" style="height: 100px;"></div>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <div class="wire-placeholder">☐ Please subscribe me to the monthly newsletter</div>
+                </div>
+                <div class="wire-placeholder" style="background: #2c3e50; color: white; text-align: center; padding: 10px;">
+                    Send Message
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. Footer -->
+        <div class="wire-section" style="background: #333; color: white; display: flex; justify-content: space-between; align-items: center; padding: 20px;">
+            <p>© 2025 White Water Rafting Adventures | Samuel Rapata</p>
+            <div style="display: flex; gap: 15px;">
+                <div class="wire-image wire-round" style="width: 30px; height: 30px; background: #666;"></div>
+                <div class="wire-image wire-round" style="width: 30px; height: 30px; background: #666;"></div>
+                <div class="wire-image wire-round" style="width: 30px; height: 30px; background: #666;"></div>
+            </div>
+            <a href="contact-wireframe.html" style="color: white; text-decoration: none;">View Wireframe</a>
+        </div>
+    </div>
+</body>
+</html>
